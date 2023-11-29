@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5%;
+    padding-left: 10%;
+   /* background: linear-gradient(135deg, #47df98, #fa4d9b);  */
+   background-image: url("background_img.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.container h1 img {
+    width: 60px;
+    overflow: hidden;
+    transition-duration: 1s;
+    transition-property: transform;
+}
+
+.container h1 img:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+
+.container button img {
+    width: 25px;
+    margin-right: 8px;
+}
+
+.container button {
+    display: flex;
+    align-items: center;
+    color: white;
+    outline: 0;
+    border: 0;
+    background: linear-gradient(#dbc5f0, #010002);
+    font-size: 20px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background: linear-gradient(#ff1313, #010002);
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 130px;
+    background: #ffff99;
+    color: black;
+    border-radius: 5px;
+    outline: none;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.input-box img {
+    width: 25px;
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    bottom: 15px;
+}
